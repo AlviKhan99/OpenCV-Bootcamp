@@ -25,7 +25,7 @@ def getContours(img):
                 if aspratio > 0.95 and aspratio <1.05: objectType = "Square"
                 else: objectType = "Rectangle"
             elif objector > 4: objectType = "Circle"
-            else: objectType = "Note"
+            else: objectType = "None"
 
             cv2.rectangle(img_contours, (x,y), (x+w, y+h), (255,255,0),3)
             cv2.putText(img_contours, objectType, (x+(w//2)-10, y+(h//2)-10),  cv2.FONT_HERSHEY_COMPLEX,0.5, (255,255,255), 2)
