@@ -72,7 +72,7 @@ def findObjects(outputs, img):
 
 while True:
     success, img = cap.read()
-    cv2.imshow('Image', img)
+    
 
     #Convert image to blob format. (For yolov3, images must be converted to blob format to use)
     blob = cv2.dnn.blobFromImage(img, 1/255, (whT,whT), [0,0,0], 1, crop=False)
@@ -105,7 +105,7 @@ while True:
     findObjects(outputs, img)
 
 
-
+    cv2.imshow('Image', img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
