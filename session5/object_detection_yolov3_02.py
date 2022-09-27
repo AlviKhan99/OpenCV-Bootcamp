@@ -1,4 +1,4 @@
-#Description: Using YOLOV5 pre-trained weights for object detection.
+#Description: Using YOLOV3 pre-trained weights for object detection.
 
 #Importing Libraries:
 import cv2
