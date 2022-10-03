@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 session5/yolov3/*
 CollectedImages/*
+Sign-Language-Generation-From-Video-using-YOLOV5/*
