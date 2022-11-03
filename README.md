@@ -31,3 +31,9 @@ Important Note- To launch jupyter notebook, use the following command:
 ```bash
 jupyter-notebook
 ```
+
+# Author
+
+## Alvi Khan Chowdhury
+
+## Email: alviavailable@gmail.com
